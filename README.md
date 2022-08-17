@@ -25,7 +25,7 @@ También se puede probar el servicio desde la terminal. Prueba `curl localhost:8
 Para ejecutar las pruebas correspondientes utiliza `mvn test`, el resultado debería ser
 ![run test](img/runTest.png)
 
-You can check the health of the application by running the following command `curl localhost:8080/actuator/health`. The result should be 
+Se puede revisar el estado del servidor usando `curl localhost:8080/actuator/health`. El resultado debereía ser 
 
 ![Check health](img/checkHealth.png)
 
